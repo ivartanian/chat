@@ -1,0 +1,12 @@
+---
+systemId: "4800"
+mode: "dev"
+apps:
+- name: "inbox-server"
+  instances: 2
+  uris:
+  - "inbox-server-ukraine-ums-kievimsqa1.cf.ums.ptec"
+- name: "client-api"
+  instances: 2
+  uris:
+  - "client-api-ukraine-ums-kievimsqa.cf.ums.ptec"

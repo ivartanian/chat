@@ -1,0 +1,12 @@
+{
+  "name": "test-client.ukraine.ptec",
+  "profile": "esxi65-dev-install",
+  "selector": {
+    "serial": "4PNQ45J"
+  },
+  "metadata": {
+    "pt_name": "test-client.ukraine.ptec",
+    "pt_ip": "10.200.112.55",
+    "pt_gw": "10.200.112.254"
+  }
+}

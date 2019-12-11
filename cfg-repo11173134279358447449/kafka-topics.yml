@@ -1,0 +1,59 @@
+---
+topics:
+- name: "ims_eventstream_player_depositevent_primary"
+  partitions: 1
+  replication: 2
+  properties: []
+- name: "andreybo_ga_poc"
+  partitions: 1
+  replication: 2
+  properties:
+  - key: "retention.ms"
+    value: "300000"
+- name: "dmytrokh_quicklink_sports_events"
+  partitions: 2
+  replication: 2
+  properties:
+  - key: "retention.ms"
+    value: "300000"
+- name: "em_kafka_replication"
+  partitions: 1
+  replication: 2
+  properties:
+  - key: "retention.ms"
+    value: "300000"
+- name: "ukraine-ums-kievimsqa1_inbox_notifications"
+  partitions: 2
+  replication: 2
+  properties: []
+- name: "ukraine-ums-kievimsqa1_conversion_rules"
+  partitions: 2
+  replication: 2
+  properties: []
+- name: "ukraine-ums-kievimsqa1_loyalty_program"
+  partitions: 2
+  replication: 2
+  properties: []
+- name: ukraine-ums-kievimsdev1_lb_modify_balance_requests
+  partitions: 10
+  replication: 2
+  properties: []
+  permissions:
+    - username: leader
+    - operation: All
+- name: ukraine-ums-kievimsdev1_lb_balance_modified_notifications
+  partitions: 2
+  replication: 2
+  properties: []
+  permissions:
+    - username: leader
+    - operation: All
+- name: ukraine-ums-kievimsdev1_lb_lifecycle_events
+  partitions: 2
+  replication: 2
+  properties: []
+  permissions:
+    - username: leader
+    - operation: All
+
+

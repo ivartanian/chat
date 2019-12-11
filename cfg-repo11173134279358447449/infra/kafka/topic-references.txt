@@ -1,0 +1,3 @@
+# This file contains absolute paths for all connected topics configuration files in that account.
+/ukraine-ums-kievimsdev1/leaderboards/kafka-topics.yml # Topic configuration for leaderboards topics
+/ukraine-ums-kievimsqa1/leaderboards/kafka-topics.yml # Topic configuration for leaderboards topics
