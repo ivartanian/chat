@@ -1,10 +1,6 @@
 application: 
   test: 7
 
-info:
-  component: Chat OGW
-  version: '@project.version@'
-
 server:
   port: 8808
 logging:
