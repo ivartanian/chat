@@ -1,5 +1,5 @@
 application: 
-  test: 7
+  test: 8
 
 server:
   port: 8808
